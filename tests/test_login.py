@@ -10,7 +10,7 @@ def test_login(page, username, password, should_pass):
     login_page = LoginPage(page)
     dashboard = DashboardPage(page)
 
-    login_page.navigate("https://example.com/login")
+    login_page.navigate("https://youtube.com/login")
     login_page.login(username, password)
 
     if should_pass:
